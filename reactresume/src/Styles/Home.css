@@ -1,0 +1,81 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d78258;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 20px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+
+.skills {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #85865F;
+}
+
+.skills h1 {
+  color: white;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
